@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>정보보안 검색엔진</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>정보보안 검색엔진 🔍</h1>
+    <input
+      type="text"
+      id="search-input"
+      placeholder="검색어를 입력하세요 (예: SQL Injection, XSS)"
+      autocomplete="off"
+    />
+    <ul id="suggestions" class="suggestions"></ul>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
